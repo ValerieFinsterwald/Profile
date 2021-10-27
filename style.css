@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;500;900&family=Zen+Kurenaido&family=Zen+Maru+Gothic:wght@900&display=swap');
+
+body {
+  color: #6C4A4A;
+  background-color: #EDEDED;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+h1, h2, a {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+h1 {
+  color: #795353;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+h2 {
+  color: #a07676;
+  font-weight: 300;
+}
+
+p {
+  color: #a38585;
+}
+
+a {
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #fdfbfb;
+}
+
+.card {
+  background-color: #fdfbfb;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px #a39b9b38;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.image-design {
+  height: 180px;
+  opacity: 85%;
+  filter: blur(0.2px)
+}
+
+.btn-padding {
+  padding-bottom: 30px;
+}
+
+.btn {
+  background-color: #a07676 ;
+  border-radius: 4px;
+  padding: 2px 8px 5px 8px;
+}
+
+.btn:hover {
+  background-color: #795353;
+}
+
+.text-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.text-inline li {
+  display: inline-block;
+}
+
+.text-inline i {
+  font-size: 35px;
+  padding: 0px 15px 0px 15px;
+  color: #a07676;
+}
+
+.text-inline i:hover {
+  color: #795353;
+}
+
+@media (max-width: 10000px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 710px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 610px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 510px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 410px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 310px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
